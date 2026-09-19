@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NOSTALGIA HUB - SERVERS</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ВЕРХНЯЯ ШАПКА -->
+  <header class="header-bar">
+    <div class="logo">NOSTALGIA HUB</div>
+    <nav class="nav-links">
+      <a href="index.html">HOME</a>
+      <a href="servers.html">SERVERS</a>
+      <a href="community.html">COMMUNITY</a>
+      <a href="blog.html">BLOG</a>
+    </nav>
+  </header>
+
+  <!-- ОСНОВНОЙ КОНТЕЙНЕР -->
+  <div class="container">
+
+    <!-- ЛЕВАЯ КОЛОНКА (СИДЕБАР) -->
+    <aside class="sidebar">
+
+      <div class="window-box">
+        <div class="window-header">WELCOME!</div>
+        <div class="window-content">
+          <p class="welcome-text">Добро пожаловать в игровой хаб! Выбирай сервер и присоединяйся к нам.</p>
+          <button class="btn">READ MORE</button>
+        </div>
+      </div>
+
+      <div class="window-box">
+        <div class="window-header">PLAYER COUNT</div>
+        <div class="window-content">
+          <div class="stat-row">
+            <span>MINECRAFT</span>
+            <div class="progress-bar"><div class="fill" style="width: 30%;"></div></div>
+            <span>150 / 500</span>
+          </div>
+          <div class="stat-row">
+            <span>SAMP</span>
+            <div class="progress-bar"><div class="fill" style="width: 50%;"></div></div>
+            <span>50 / 100</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="window-box">
+        <div class="window-header">GLOBAL NEWS</div>
+        <div class="window-content">
+          <p class="news-title">TOP EVENTS:</p>
+          <p class="news-desc">Скоро открытие нового сервера!</p>
+          <hr class="pixel-hr">
+          <p class="news-title">TOP DONATORS:</p>
+          <ul class="donators-list">
+            <li>hoshimitsu</li>
+          </ul>
+        </div>
+      </div>
+
+    </aside>
+
+    <!-- ПРАВАЯ КОЛОНКА (ОСНОВНОЙ СПИСОК СЕРВЕРОВ) -->
+    <main class="main-content">
+      <div class="window-box">
+        <div class="window-header">ONLINE GAMING SERVERS</div>
+        <div class="window-content">
+
+          <!-- Блок над списком: Текст по центру + фильтры -->
+          <div class="filter-bar">
+            <div class="select-server-text">SELECT A SERVER TO CONNECT</div>
+            <div class="filter-buttons">
+              <button class="btn filter-btn active">ALL</button>
+              <button class="btn filter-btn">MC 1.20</button>
+              <button class="btn filter-btn">SAMP</button>
+            </div>
+          </div>
+
+          <!-- 1. СЕКЦИЯ MINECRAFT (Первая по алфавиту) -->
+          <div class="server-section-title">Minecraft Servers</div>
+          <div class="server-table">
+            <div class="server-table-header">
+              <span>Name</span>
+              <span>Status</span>
+              <span>Players</span>
+              <span>Ping</span>
+              <span>Connect</span>
+            </div>
+
+            <!-- Карточка MC 1 -->
+            <div class="server-row">
+              <div class="server-name">
+                <span class="badge mc-badge">MC</span>
+                [MC 1.20.4] Medieval Kingdom SMP
+              </div>
+              <div class="server-status"><span class="status-dot online"></span> Online</div>
+              <div class="server-players">150/500</div>
+              <div class="server-ping">★ 35</div>
+              <div class="server-action">
+                <button class="btn copy-btn" data-ip="mc.yourdomain.com">COPY IP</button>
+              </div>
+            </div>
+
+            <!-- Карточка MC 2 -->
+            <div class="server-row">
+              <div class="server-name">
+                <span class="badge mc-badge">MC</span>
+                [MC 1.20.4] Vanilla Survival
+              </div>
+              <div class="server-status"><span class="status-dot online"></span> Online</div>
+              <div class="server-players">80/200</div>
+              <div class="server-ping">★ 40</div>
+              <div class="server-action">
+                <button class="btn copy-btn" data-ip="vanilla.yourdomain.com">COPY IP</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. СЕКЦИЯ SA:MP (Вторая по алфавиту) -->
+          <div class="server-section-title">SA-MP Servers</div>
+          <div class="server-table">
+            <div class="server-table-header">
+              <span>Name</span>
+              <span>Status</span>
+              <span>Players</span>
+              <span>Ping</span>
+              <span>Connect</span>
+            </div>
+
+            <!-- Карточка SAMP 1 -->
+            <div class="server-row">
+              <div class="server-name">
+                <span class="badge samp-badge">SAMP</span>
+                [SAMP] Medieval Roleplay
+              </div>
+              <div class="server-status"><span class="status-dot online"></span> Online</div>
+              <div class="server-players">50/100</div>
+              <div class="server-ping">★ 45</div>
+              <div class="server-action">
+                <button class="btn copy-btn" data-ip="samp.yourdomain.com:7777">COPY IP</button>
+              </div>
+            </div>
+
+            <!-- Карточка SAMP 2 -->
+            <div class="server-row">
+              <div class="server-name">
+                <span class="badge samp-badge">SAMP</span>
+                [SAMP] Freeroam & Fun
+              </div>
+              <div class="server-status"><span class="status-dot online"></span> Online</div>
+              <div class="server-players">20/100</div>
+              <div class="server-ping">★ 60</div>
+              <div class="server-action">
+                <button class="btn copy-btn" data-ip="fun.yourdomain.com:7777">COPY IP</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </main>
+
+  </div>
+
+  <footer class="footer">
+    Nostalgia Hub &copy; 2026 | All Rights Reserved
+  </footer>
+
+  <script>
+    document.querySelectorAll('.copy-btn').forEach(button => {
+      button.addEventListener('click', () => {
+        const ip = button.getAttribute('data-ip');
+        navigator.clipboard.writeText(ip).then(() => {
+          const originalText = button.textContent;
+          button.textContent = 'COPIED!';
+          button.style.backgroundColor = '#81c784';
+          setTimeout(() => {
+            button.textContent = originalText;
+            button.style.backgroundColor = '';
+          }, 1500);
+        });
+      });
+    });
+  </script>
+</body>
+</html>

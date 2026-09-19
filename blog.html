@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NOSTALGIA HUB - BLOG</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ВЕРХНЯЯ ШАПКА -->
+  <header class="header-bar">
+    <div class="logo">NOSTALGIA HUB</div>
+    <nav class="nav-links">
+      <a href="index.html">HOME</a>
+      <a href="servers.html">SERVERS</a>
+      <a href="community.html">COMMUNITY</a>
+      <a href="blog.html" class="active">BLOG</a>
+    </nav>
+  </header>
+
+  <!-- ОСНОВНОЙ КОНТЕЙНЕР -->
+  <div class="container">
+
+    <!-- ЛЕВАЯ КОЛОНКА (САЙДБАР) -->
+    <aside class="sidebar">
+
+      <div class="window-box">
+        <div class="window-header">WELCOME!</div>
+        <div class="window-content">
+          <p class="welcome-text">Добро пожаловать в игровой хаб! Выбирай сервер и присоединяйся к нам.</p>
+          <a href="servers.html" class="btn">SERVERS LIST</a>
+        </div>
+      </div>
+
+      <div class="window-box">
+        <div class="window-header">PLAYER COUNT</div>
+        <div class="window-content">
+          <div class="stat-row">
+            <span>MINECRAFT</span>
+            <div class="progress-bar"><div class="fill" style="width: 30%;"></div></div>
+            <span>150 / 500</span>
+          </div>
+          <div class="stat-row">
+            <span>SAMP</span>
+            <div class="progress-bar"><div class="fill" style="width: 50%;"></div></div>
+            <span>50 / 100</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="window-box">
+        <div class="window-header">ARCHIVE</div>
+        <div class="window-content">
+          <ul class="blog-archive-list">
+            <li><a href="#">&gt; Сентябрь 2026</a></li>
+            <li><a href="#">&gt; Август 2026</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </aside>
+
+    <!-- ПРАВАЯ КОЛОНКА (СТАТЬИ БЛОГА) -->
+    <main class="main-content">
+
+      <!-- Статья 1 -->
+      <article class="window-box blog-post">
+        <div class="window-header">POST #002: ПОЧЕМУ МЫ ВЫБРАЛИ СРЕДНЕВЕКОВЫЙ СЕТТИНГ</div>
+        <div class="window-content">
+          <div class="post-meta">Опубликовано: 18.09.2026 | Автор: Admin</div>
+          <div class="post-body">
+            <p>
+              Всем привет! В этом посте мы хотим рассказать, почему для нашего SA-MP сервера был выбран 
+              именно Medieval RP концепт вместо привычного всем криминального или полиция-вайба.
+            </p>
+            <p>
+              Дух рыцарства, замки, отсутствие огнестрела и дуэли на мечах создают совершенно другую атмосферу 
+              отыгрыша, которой сейчас так не хватает в современном SAMP-сообществе...
+            </p>
+          </div>
+          <button class="btn read-more-btn">READ MORE &rarr;</button>
+        </div>
+      </article>
+
+      <!-- Статья 2 -->
+      <article class="window-box blog-post" style="margin-top: 20px;">
+        <div class="window-header">POST #001: ДОРОЖНАЯ КАРТА ПРОЕКТА</div>
+        <div class="window-content">
+          <div class="post-meta">Опубликовано: 10.09.2026 | Автор: Admin</div>
+          <div class="post-body">
+            <p>
+              Запуск Nostalgia Hub состоялся! В ближайшее время мы планируем закончить интеграцию Node.js бэкенда, 
+              запустить свой форум в стиле имиджборды и провести первый турнир на Minecraft сервере.
+            </p>
+          </div>
+          <button class="btn read-more-btn">READ MORE &rarr;</button>
+        </div>
+      </article>
+
+    </main>
+
+  </div>
+
+  <!-- ФУТЕР -->
+  <footer class="footer">
+    Nostalgia Hub &copy; 2026 | All Rights Reserved
+  </footer>
+
+</body>
+</html>
