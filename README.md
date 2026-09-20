@@ -14,3 +14,4 @@
 
 
 futures: возможно сделаю онлайн-чат
+slogan: meditative and relaxing experience
