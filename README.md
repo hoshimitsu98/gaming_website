@@ -11,3 +11,6 @@
 ## 🛠 Технологии
 - HTML5 / CSS3 (Flexbox & Grid)
 - Google Fonts (`Press Start 2P`, `VT323`)
+
+
+futures: возможно сделаю онлайн-чат
